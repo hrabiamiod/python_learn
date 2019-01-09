@@ -15,4 +15,4 @@ try:                            # Weryfikacjia czy input jest liczba
     b = int(liczba)
     collatz(b)
 except ValueError:              # Jesli nie to
-    print('Liczba musi być cyfrą!')l
+    print('Liczba musi być cyfrą!')

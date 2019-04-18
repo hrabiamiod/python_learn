@@ -1,3 +1,5 @@
+## Automate the Boring Stuff Chpt 5 - Fantasy Game Inventory ##
+
 def displayInventory(inventory):
     print("Inwentarz:")
     item_total = 0

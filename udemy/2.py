@@ -2,10 +2,17 @@ import random
 
 class Enemy:
 
+    def __init__(self, atkl, atkh):
+        self.atkl = atkl
+        self.atkh = atkh
+
     def getAtk(self):
         print(self.atkl)
 
-enemy1 = Enemy()
+enemy1 = Enemy(60, 70)
+enemy1.getAtk()
+
+enemy1 = Enemy(160, 270)
 enemy1.getAtk()
 
 '''

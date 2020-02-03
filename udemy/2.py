@@ -1,6 +1,8 @@
 import random
 
+
 class Enemy:
+    hp = 200
 
     def __init__(self, atkl, atkh):
         self.atkl = atkl
@@ -9,11 +11,16 @@ class Enemy:
     def getAtk(self):
         print(self.atkl)
 
+    def getHp(self):
+        print("Hp is", self.hp)
+
 enemy1 = Enemy(60, 70)
 enemy1.getAtk()
+enemy1.getHp()
 
-enemy1 = Enemy(160, 270)
-enemy1.getAtk()
+enemy2 = Enemy(160, 270)
+enemy2.getAtk()
+enemy2.getHp()
 
 '''
 
